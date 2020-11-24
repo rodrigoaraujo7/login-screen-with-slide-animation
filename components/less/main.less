@@ -1,0 +1,40 @@
+@main-color: #F9A826;
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background: @main-color;
+    font-family: 'Nunito';
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+
+    .center();
+
+    .left {
+        .center();
+    
+        width: 50%;
+        height: 100%;
+    
+        background: #F5F5F5;
+    }
+
+    .right {
+        .center();
+
+        width: 50%;
+        height: 100%;
+
+        background: #fff;
+    }   
+}
